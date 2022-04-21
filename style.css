@@ -261,12 +261,12 @@ footer {
     font-size: 1.3rem;
     transition: color .4s ease;
 
-
 }
 
 .sociais a:hover i {
     color: rgb(255, 255, 255);
     opacity: 70%;
+
 }
 
 footer p{
@@ -285,4 +285,5 @@ footer a {
 footer a:hover {
     color: rgb(255, 255, 255);
     opacity: 70%;
+
 }
