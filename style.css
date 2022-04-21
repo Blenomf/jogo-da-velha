@@ -21,6 +21,10 @@ body {
 h1 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
     padding-top: 50px;
     margin-bottom: 0px 0px 0px;
     border-bottom: none;
