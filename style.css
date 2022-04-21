@@ -1,21 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 body {
+    width: 90vw;
     height: 100vh;
-    width: 100vh;
+    border: none;
     background: linear-gradient(
         90deg,
         #ffe53bd8 0%,
         #ff2525da 100%
     );
         
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 0px 0px 0px;
+    border-bottom: none;
+    font-size: 1.8rem;
+
+}
+
+
+h1 {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a h1 {
+    text-decoration: none;
+    color: black;
+
+}
+
+a h1:hover {
+    color: #fff;
+    opacity: 70%;
+
+}
+
+.site-by-bleno-martins a {
+    text-decoration: none;
+    
+}
+
+.site-by-bleno-martins a:hover {
+    color: #fff;
+    opacity: 70px;
+
 }
 
 .board {
@@ -28,6 +68,9 @@ body {
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(3, auto);
+    margin-top: 0px 0px 0px;
+    border: none;
+    margin: 0px 0px 0px;
 
 }
 
@@ -168,60 +211,78 @@ body {
 
 .show-winning-message {
     display: flex;
-}
-
-/* Redes Sociais*/
-
-.instagram,
-.instagram img {
-    display: inline-block;
-    width: 58px;
-    left: -122px;
-    top: -6104px;
-    border-radius: 0px;
 
 }
 
-.twitter,
-.twitter img {
-    display: inline-block;
-    height: 59px;
-    width: 55px;
-    left: -61px;
-    top: -6107px;
-    border-radius: 223px;
+footer {
+    background: linear-gradient(
+        90deg,
+        #ffe53bd8 0%,
+        #ff2525da 100%
+    );
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+    width: 98.73vw;
 
 }
 
-.github,
-.github img {
-    display: inline-block;
-    height: 59px;
-    width: 59px;
-    left: -13px;
-    top: -6108px;
-    border-radius: 0px;
-
-}
-
-.site-by-bleno-martins,
-.site-by-bleno-martins h1 {
-    font-family: 'League Gothic', sans-serif;
-    font-weight: 400;
-    display: inline-block;
-    justify-content: center;
+.footer-content {
+    display: flex;
     align-items: center;
-    align-content: center;
-    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    padding: 10px 10px;
-    height: 24px;
-    width: 194px;
-    left: -137px;
-    top: -6135px;
-    border-radius: nullpx;
-    text-decoration: none;
-    color: black;
 
 }
 
+.sociais {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.9rem 0 0.9rem 0;
+
+}
+
+.sociais li {
+    margin: 0 10px;
+
+}
+
+.sociais a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.sociais a i {
+    font-size: 1.3rem;
+    transition: color .4s ease;
+
+
+}
+
+.sociais a:hover i {
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+}
+
+footer p{
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+
+}
+
+footer a {
+    color: black
+
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    opacity: 70%;
+}
