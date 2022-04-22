@@ -94,6 +94,8 @@ label {
 
 .imagem {
     display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 
