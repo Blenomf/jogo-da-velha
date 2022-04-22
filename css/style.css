@@ -197,25 +197,7 @@ body {
     background-color: rgb(26, 24, 24);
     color: rgb(218, 203, 203);
     cursor: pointer;
-}
-
-.form-txt {
-    display: flex;
-    position: relative;
-    padding-left: 10px;
-    top: -70px;
-
-}
-
-.form-txt a {
-    margin-left: 3px;
-    text-decoration: underline;
-    color: black;
-
-}
-
-.form-txt a:hover {
-    color: #fff;
+    
 }
 
 
@@ -276,11 +258,6 @@ footer p{
     padding-bottom: 15px;
     margin-top: 0px;
 
-}
-
-.creditos {
-    font-size: 10.2px;
-    
 }
 
 footer a {
