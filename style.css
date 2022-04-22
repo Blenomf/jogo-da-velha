@@ -83,6 +83,7 @@ a h1:hover {
 .board.circle .cell:not(.x):not(.circle):hover::after,
 .board.circle .cell:not(.x):not(.circle):hover::before {
     background: rgba(255, 255, 255, .3) !important;
+
 }
 
 /* Celulas */
@@ -279,6 +280,11 @@ footer p{
     padding-bottom: 15px;
     margin-top: 0px;
 
+}
+
+.creditos {
+    font-size: 10.2px;
+    
 }
 
 footer a {
