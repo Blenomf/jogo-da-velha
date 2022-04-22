@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title>Formulario de Report</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Report - Jogo da Velha</h1>
+        <p>
+            Neste formulario você pode reportar algum tipo de bug ou deixar alguma sugestão de melhoria
+            para nosso jogo!!
+        </p>
+    </header>
+
+    <form method="post" name="contact" netlify>
+        <p>
+            <label class="nome">Name <input type="text" name="name" placeholder="Nome" /></label>
+        </p>
+        <p>
+            <label class="email">Email <input type="email" name="email" placeholder="Email"/></label>
+        </p>
+        <p>
+            <label class="mensagem">
+                Mensagem <textarea class="txt-mensagem" name="text"  cols="25" wrap="soft" placeholder="Envie aqui seu bug ou sugestão"></textarea>
+            </label>
+        </p>
+        <p>
+            <label class="imagem" for="imagem">
+                Envie uma imagem <input type="file" class="envie-img" name="imagem" placeholder="Envie uma imagem caso seja um bug">
+            </label>
+
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+        <p class="voltar-p">
+            <a href="./index.html">
+                <button class="voltar" type="button">Voltar ao Jogo</button>
+            </a>
+        </pvoltar>
+    </form>
+    
+    <footer>
+        <div class="footer-content">
+            <ul class="sociais">
+                <li><a href="https://www.facebook.com/bleno.martinsferreira.9/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/blenomf_" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/blenomf_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/Blenomf" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCgfy9lU4IERwG1oXfUrDCQQ" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+            <p>Entre em contato atravez do nosso email: <a href = "mailto:blenomfoficial@gmail.com">blenomfoficial@gmail.com</a></p>
+            <p class="creditos">Esse jogo foi desenvolvido por <a href="https://bleno-martins-portifolio.netlify.app" target="_blank">Bleno Martins</a> no dia 22/04/2022 para um curso de programação no modulo avançado de CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>

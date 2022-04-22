@@ -106,3 +106,11 @@ const handleClick = (e) => {
 startGame();
 
 restartButton.addEventListener("click", startGame);
+
+// Botão de recomeçar
+
+var btn = document.querySelector("#refresh");
+btn.addEventListener("click", function() {
+    
+    location.reload();
+});
