@@ -202,10 +202,7 @@ body {
 .form-txt {
     display: flex;
     position: relative;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
+    padding-left: 10px;
     top: -70px;
 
 }
