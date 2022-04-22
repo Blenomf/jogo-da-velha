@@ -94,16 +94,11 @@ label {
 
 .imagem {
     display: flex;
-    position: relative;
-    right: -92px;
 
 }
 
 .envie-img {
     display: flex;
-    position: relative;
-    right: -5px;
-    top: -8px;
 
 }
 
@@ -184,7 +179,6 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 0.9rem 0 0.9rem 0;
-    top: -30px;
 
 }
 
@@ -216,15 +210,11 @@ footer p{
     padding-top: 0px;
     padding-bottom: 15px;
     margin-top: 0px;
-    position: relative;
-    top: -28px;
 
 }
 
 .creditos {
     font-size: 10.2px;
-    position: relative;
-    top: -45px;
     
 }
 
@@ -244,3 +234,236 @@ footer a:hover {
 
 }
 
+@media only screen and (max-device-width: 320px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+    
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: solid;
+        font-size: 15px;
+    
+    }
+    
+    /*Formulario*/
+    
+    form {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+    form input {
+        align-items: center;
+        justify-content: center;
+        display: inline;
+    
+    }
+    
+    form p {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    
+    }
+    
+    form p .mensagem {
+        padding-left: 49px;
+    
+    }
+    
+    .mensagem input {
+        padding-bottom: 70px;
+        padding-right: 70px;
+    
+    }
+    
+    input {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 4.5px 1.5px rgba(0, 0, 0, 0.773);
+        
+    }
+    
+    textarea {
+        padding: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        box-shadow: 4.5px 1.5px rgba(0, 0, 0, 0.773);
+    
+    }
+    
+    label {
+        padding-top: 15px;
+        text-align: center;
+    
+    }
+    
+    .imagem {
+        display: flex;
+        position: relative;
+        right: -92px;
+    
+    }
+    
+    .envie-img {
+        display: flex;
+        position: relative;
+        right: -5px;
+        top: -8px;
+    
+    }
+    
+    .txt-mensagem {
+        display: inline;
+        position: relative;
+        top: 17.3px;
+    
+    }
+    
+    /*Botões do formulario*/
+    
+    button {
+        display: inline;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        font-size: 25px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 128.1px;
+        height: 47.2px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+    
+    }
+    
+    button:hover {
+        background-color: rgb(31, 30, 30);
+        color: aliceblue;
+        cursor: pointer;
+    
+    }
+    
+    .voltar {
+        font-size: 15px;
+        height: 50.2px;
+    
+    }
+    
+    
+    .voltar-p {
+        display: flex;
+        position: relative;
+        top: -32px;
+    
+    }
+    
+    .voltar-p a {
+        text-decoration: none;
+    }
+    
+    /*Roda-pé*/
+    
+    footer {
+        border-top: #fff solid 0.5px;
+        height: 2vh;
+        font-family: "Open Sans";
+        padding-top: 40px;
+        color: rgb(0, 0, 0);
+        width: 97.70vw;
+    
+    }
+    
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    
+    .sociais {
+        list-style: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.9rem 0 0.9rem 0;
+        top: -30px;
+    
+    }
+    
+    .sociais li {
+        margin: 0 10px;
+    
+    }
+    
+    .sociais a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    
+    }
+    
+    .sociais a i {
+        font-size: 1.3rem;
+        transition: color .4s ease;
+    
+    }
+    
+    .sociais a:hover i {
+        color: rgb(255, 255, 255);
+        opacity: 70%;
+    
+    }
+    
+    footer p{
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        margin-top: 0px;
+        position: relative;
+        top: -28px;
+    
+    }
+    
+    .creditos {
+        font-size: 10.2px;
+        position: relative;
+        top: -45px;
+        
+    }
+    
+    .creditos a {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    
+    footer a {
+        color: black
+    
+    }
+    
+    footer a:hover {
+        color: rgb(255, 255, 255);
+        opacity: 70%;
+    
+    }
+    }
