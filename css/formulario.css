@@ -10,6 +10,8 @@ body {
         
 }
 
+/*Cabeçalho*/
+
 h1 {
     display: flex;
     justify-content: center;
@@ -20,7 +22,6 @@ h1 {
     text-transform: uppercase;
 
 }
-/*Organização*/
 
 p {
     display: flex;
@@ -34,37 +35,39 @@ p {
 
 }
 
+/*Formulario*/
+
 form {
     align-items: center;
     justify-content: center;
     text-align: center;
 
 }
-/*Organização*/
+
 form input {
     align-items: center;
     justify-content: center;
     display: inline;
 
 }
-/*Organização*/
+
 form p {
     padding-top: 15px;
     padding-bottom: 10px;
 
 }
-/*Organização*/
+
 form p .mensagem {
     padding-left: 49px;
 
 }
-/*Organização*/
+
 .mensagem input {
     padding-bottom: 70px;
     padding-right: 70px;
 
 }
-/*Organização*/
+
 input {
     display: flex;
     flex-direction: column;
@@ -74,7 +77,7 @@ input {
     box-shadow: 4.5px 1.5px rgba(0, 0, 0, 0.773);
     
 }
-/*Organização*/
+
 textarea {
     padding: 5px;
     border: 2px solid rgb(0, 0, 0);
@@ -82,7 +85,7 @@ textarea {
     box-shadow: 4.5px 1.5px rgba(0, 0, 0, 0.773);
 
 }
-/*Organização*/
+
 label {
     padding-top: 15px;
     text-align: center;
@@ -111,7 +114,8 @@ label {
 
 }
 
-/*Organização*/
+/*Botões do formulario*/
+
 button {
     display: inline;
     justify-content: center;
@@ -137,6 +141,7 @@ button:hover {
 .voltar {
     font-size: 15px;
     height: 50.2px;
+
 }
 
 
@@ -144,7 +149,14 @@ button:hover {
     display: flex;
     position: relative;
     top: -32px;
+
 }
+
+.voltar-p a {
+    text-decoration: none;
+}
+
+/*Roda-pé*/
 
 footer {
     border-top: #fff solid 0.5px;
